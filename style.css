@@ -1,16 +1,22 @@
 img {
-  width: 90%;
+  width: 60%;
 }
 
 video {
-  width: 90%;
+  width: 60%;
+}
+
+body {
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
   .topnav {
     overflow: hidden;
     background-color: #333;
-    position: relative;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
@@ -47,6 +53,18 @@ video {
     background-color: #333;
     color: white;
   }
+
+  img {
+    width: 100%;
+  }
+  
+  video {
+    width: 100%;
+  }
+
+  body {
+    padding-top: 30px;
+  }
 }
 
 @media only screen and (min-width: 769px) {
@@ -62,5 +80,9 @@ video {
   /* Always show the links on larger screens */
   .topnav #myLinks {
     display: block;
+  }
+
+  body {
+    padding-top: 30px;
   }
 }
