@@ -29,7 +29,7 @@ video {
   
   /* Style the hamburger menu */
   .topnav a.icon {
-    background: black;
+    background: #333;
     display: block;
     position: absolute;
     right: 0;
@@ -44,7 +44,7 @@ video {
   
   /* Style the active link (or home/logo) */
   .active {
-    background-color: #04AA6D;
+    background-color: #333;
     color: white;
   }
 }
