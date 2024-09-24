@@ -55,6 +55,10 @@ video {
     display: none;
   }
 
+  a.active {
+    display: none;
+  }
+
   /* Always show the links on larger screens */
   .topnav #myLinks {
     display: block;
