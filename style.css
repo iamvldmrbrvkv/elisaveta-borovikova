@@ -1,9 +1,9 @@
 body {
-  width: 100%;
+  width: 90%;
 }
 
 img {
-  width: 90%;
+  width: 80%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -46,5 +46,17 @@ img {
   .active {
     background-color: #04AA6D;
     color: white;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  /* Hide hamburger menu on larger screens */
+  .topnav a.icon {
+    display: none;
+  }
+
+  /* Always show the links on larger screens */
+  .topnav #myLinks {
+    display: block;
   }
 }
