@@ -9,7 +9,7 @@ body {
 @media only screen and (max-width: 768px) {
   .topnav {
     overflow: hidden;
-    background-color: black;
+    background-color: #333;
     position: fixed;
     top: 0;
     width: 100%;
@@ -34,7 +34,7 @@ body {
   
   /* Style the hamburger menu */
   .topnav a.icon {
-    background: black;
+    background: #333;
     display: block;
     position: absolute;
     right: 0;
@@ -43,13 +43,13 @@ body {
   
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
-    background-color: #333;
-    color: white;
+    background-color: #ddd;
+    color: black;
   }
   
   /* Style the active link (or home/logo) */
   .active {
-    background-color: black;
+    background-color: #333;
     color: white;
   }
 
