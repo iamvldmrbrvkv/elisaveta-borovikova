@@ -4,17 +4,36 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Vladimir Borovikov">
+  <link rel="stylesheet" type="text/css" href="./style.css">
   <link rel="shortcut icon" type="image/jpg" href="./resourses/pictures/lisa-main.JPG">
+  <script src="./script.js" defer></script>
 	<title>Pictures</title>
 </head>
 <body>
 
-	<ul>
+	<!-- <ul>
     <li><a href="index.html">Домашняя страница</a></li>
     <li>Фото и видео</li>
     <li><a href="projects.html">Проекты</a></li>
     <li><a href="social.html">Ссылки</a></li>
-  </ul>
+  </ul> -->
+
+  <nav>
+    <div class="topnav">
+      <a href="index.html" class="active">Logo</a>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="index.html">Домашняя страница</a>
+        <a href="pictures-and-videos.html">Фото и видео</a>
+        <a href="projects.html">Проекты</a>
+        <a href="social.html">Ссылки</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
 
 	<h1>Фото и видео</h1>
 
