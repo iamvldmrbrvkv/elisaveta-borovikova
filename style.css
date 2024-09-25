@@ -6,6 +6,10 @@ body {
   text-align: center;
 }
 
+header {
+  padding-bottom: 18px;
+}
+
 @media only screen and (max-width: 768px) {
   .topnav {
     overflow: hidden;
