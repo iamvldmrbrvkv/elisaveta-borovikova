@@ -55,7 +55,12 @@ html {
 }
 
 img, video {
-  width: 60%;
+  max-width: 100%;
+}
+
+figure {
+ width: 50%;
+ margin: 0 auto;
 }
 
 body {
@@ -114,6 +119,7 @@ header {
   }
 
   figure {
+    width: 100%;
     margin: 0;
   }
 
